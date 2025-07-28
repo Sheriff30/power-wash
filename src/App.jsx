@@ -31,488 +31,86 @@ function App() {
     // Pressure Washers
     {
       id: 1,
-      name: "Professional 3000 PSI Pressure Washer",
-      price: 899.99,
+      name: "Troy-Bilt 3000 PSI High Pressure Washer",
+      price: 329.9,
       image:
         "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
       category: "pressure-washers",
-      brand: "PowerWash Pro",
-      power: "3000 PSI",
+      brand: "Troy-Bilt",
+      power: "3000 PSI / 2.8 GPM",
       type: "Gas Powered",
       description:
-        "Heavy-duty commercial pressure washer with 3000 PSI for industrial cleaning applications.",
+        "3000 PSI, 2.8 GPM high pressure washer with Briggs & Stratton Intek X engine. Axial cam pump, stainless steel pistons, thermal relief valve.",
       inStock: true,
     },
     {
       id: 2,
-      name: "Electric 2000 PSI Pressure Washer",
+      name: "Honda Pressure Washer 2600 PSI",
       price: 299.99,
       image:
         "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
       category: "pressure-washers",
-      brand: "CleanForce",
-      power: "2000 PSI",
-      type: "Electric",
+      brand: "Honda / Ex-Cell",
+      power: "2600 PSI / 2.5 GPM",
+      type: "Gas Powered",
       description:
-        "Quiet and efficient electric pressure washer perfect for residential use.",
+        "Ex-Cell XR2600-2 with Honda engine, maintenance-free pump, quick connect wand, 25' high pressure hose, 4 nozzles.",
       inStock: true,
     },
     {
       id: 3,
-      name: "Industrial 4000 PSI Hot Water Washer",
-      price: 2499.99,
+      name: "A-iPower APW3200KH 3200 PSI Pressure Washer",
+      price: 349.99,
       image:
         "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
       category: "pressure-washers",
-      brand: "IndustrialMax",
-      power: "4000 PSI",
-      type: "Hot Water",
+      brand: "A-iPower",
+      power: "3200 PSI / 2.4 GPM",
+      type: "Gas Powered",
       description:
-        "Professional hot water pressure washer for grease and oil removal.",
-      inStock: false,
-    },
-    {
-      id: 4,
-      name: "Portable 1500 PSI Pressure Washer",
-      price: 199.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pressure-washers",
-      brand: "MobileClean",
-      power: "1500 PSI",
-      type: "Portable",
-      description:
-        "Lightweight and portable pressure washer for mobile cleaning services.",
+        "196cc 4-stroke Kohler engine, 4 quick connect nozzles, 25 ft. hose, 0.5 gal. soap tank, steel frame, flat-free wheels.",
       inStock: true,
     },
+    // Pumps
     {
-      id: 5,
-      name: "Commercial 3500 PSI Diesel Washer",
-      price: 1899.99,
+      id: 4,
+      name: "AAA 4000 Max Boost PSI Pump",
+      price: 329.9,
       image:
         "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pressure-washers",
-      brand: "DieselPro",
-      power: "3500 PSI",
-      type: "Diesel",
+      category: "pumps",
+      brand: "AAA",
+      power: "4000 PSI / 3.5 GPM",
+      type: "Pump",
       description:
-        "High-performance diesel pressure washer for heavy-duty commercial use.",
-      inStock: false,
+        "Heavy-duty replacement pump for pressure washers, 3.5 GPM, brass construction.",
+      inStock: true,
+    },
+    // Accessories
+    {
+      id: 5,
+      name: "Water Seal Kit Briggs & Stratton",
+      price: 20.15,
+      image:
+        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
+      category: "accessories",
+      brand: "Briggs & Stratton",
+      type: "Accessory/Replacement Part",
+      description:
+        "Double water seal kit for pressure washer pumps, compatible with Briggs & Stratton models.",
+      inStock: true,
     },
     {
       id: 6,
-      name: "Residential 1800 PSI Pressure Washer",
-      price: 249.99,
+      name: "DeWalt Nozzle Cleaning Tool",
+      price: 5.52,
       image:
         "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pressure-washers",
-      brand: "HomeClean",
-      power: "1800 PSI",
-      type: "Electric",
-      description: "Perfect for home use with easy operation and maintenance.",
-      inStock: true,
-    },
-    {
-      id: 7,
-      name: "Industrial 5000 PSI Ultra High Pressure",
-      price: 3999.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pressure-washers",
-      brand: "UltraMax",
-      power: "5000 PSI",
-      type: "Industrial",
+      category: "accessories",
+      brand: "DeWalt",
+      type: "Accessory",
       description:
-        "Ultra high-pressure washer for the most demanding industrial applications.",
-      inStock: false,
-    },
-    {
-      id: 8,
-      name: "Compact 1200 PSI Pressure Washer",
-      price: 149.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pressure-washers",
-      brand: "CompactPro",
-      power: "1200 PSI",
-      type: "Compact",
-      description: "Space-saving compact pressure washer for small spaces.",
-      inStock: true,
-    },
-
-    // Pumps & Motors
-    {
-      id: 9,
-      name: "High-Pressure Triplex Pump",
-      price: 599.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "PumpMaster",
-      power: "3000 PSI",
-      type: "Triplex",
-      description: "Professional triplex pump for high-pressure applications.",
-      inStock: true,
-    },
-    {
-      id: 10,
-      name: "Industrial Cat Pump",
-      price: 899.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "CatPump",
-      power: "4000 PSI",
-      type: "Industrial",
-      description: "Heavy-duty industrial pump for continuous operation.",
-      inStock: false,
-    },
-    {
-      id: 11,
-      name: "Electric Motor 5HP",
-      price: 399.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "MotorTech",
-      power: "5 HP",
-      type: "Electric",
-      description:
-        "High-efficiency electric motor for pressure washer applications.",
-      inStock: true,
-    },
-    {
-      id: 12,
-      name: "Gas Engine 13HP",
-      price: 699.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "EnginePro",
-      power: "13 HP",
-      type: "Gas",
-      description: "Powerful gas engine for commercial pressure washing.",
-      inStock: true,
-    },
-    {
-      id: 13,
-      name: "Diesel Engine 18HP",
-      price: 1299.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "DieselMax",
-      power: "18 HP",
-      type: "Diesel",
-      description: "Heavy-duty diesel engine for industrial applications.",
-      inStock: false,
-    },
-    {
-      id: 14,
-      name: "Plunger Pump Assembly",
-      price: 299.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "PlungerPro",
-      power: "2500 PSI",
-      type: "Plunger",
-      description: "Reliable plunger pump for consistent pressure output.",
-      inStock: true,
-    },
-    {
-      id: 15,
-      name: "Gear Pump System",
-      price: 449.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "GearTech",
-      power: "2000 PSI",
-      type: "Gear",
-      description: "Smooth operation gear pump for low-pressure applications.",
-      inStock: true,
-    },
-    {
-      id: 16,
-      name: "Variable Speed Motor",
-      price: 549.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "pumps",
-      brand: "VariablePro",
-      power: "7.5 HP",
-      type: "Variable Speed",
-      description: "Variable speed motor for precise pressure control.",
-      inStock: false,
-    },
-
-    // Accessories
-    {
-      id: 17,
-      name: "Professional Surface Cleaner",
-      price: 199.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "SurfacePro",
-      power: "3000 PSI",
-      type: "Surface Cleaner",
-      description: "Professional surface cleaner attachment for large areas.",
-      inStock: true,
-    },
-    {
-      id: 18,
-      name: "Rotating Turbo Nozzle",
-      price: 89.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "TurboMax",
-      power: "4000 PSI",
-      type: "Nozzle",
-      description: "High-performance rotating turbo nozzle for tough cleaning.",
-      inStock: true,
-    },
-    {
-      id: 19,
-      name: "50ft High-Pressure Hose",
-      price: 129.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "HosePro",
-      power: "5000 PSI",
-      type: "Hose",
-      description: "Heavy-duty high-pressure hose for extended reach.",
-      inStock: true,
-    },
-    {
-      id: 20,
-      name: "Chemical Injection System",
-      price: 159.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "ChemInject",
-      power: "3000 PSI",
-      type: "Chemical System",
-      description:
-        "Professional chemical injection system for cleaning solutions.",
-      inStock: false,
-    },
-    {
-      id: 21,
-      name: 'Extension Wand 36"',
-      price: 79.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "WandPro",
-      power: "4000 PSI",
-      type: "Wand",
-      description: "Extended reach wand for hard-to-reach areas.",
-      inStock: true,
-    },
-    {
-      id: 22,
-      name: "Foam Cannon Attachment",
-      price: 69.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "FoamMaster",
-      power: "2000 PSI",
-      type: "Foam Cannon",
-      description: "Foam cannon for applying cleaning solutions evenly.",
-      inStock: true,
-    },
-    {
-      id: 23,
-      name: "Quick Connect Fittings Set",
-      price: 49.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "QuickConnect",
-      power: "5000 PSI",
-      type: "Fittings",
-      description:
-        "Complete set of quick connect fittings for easy attachment changes.",
-      inStock: true,
-    },
-    {
-      id: 24,
-      name: "Pressure Gauge Kit",
-      price: 39.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "GaugePro",
-      power: "6000 PSI",
-      type: "Gauge",
-      description: "Precision pressure gauge for monitoring system pressure.",
-      inStock: true,
-    },
-    {
-      id: 25,
-      name: "Water Filter System",
-      price: 199.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "FilterMax",
-      power: "4000 PSI",
-      type: "Filter",
-      description:
-        "Professional water filtration system for clean water supply.",
-      inStock: false,
-    },
-    {
-      id: 26,
-      name: "Safety Glasses & Gloves Kit",
-      price: 29.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "SafetyPro",
-      power: "N/A",
-      type: "Safety",
-      description:
-        "Complete safety kit including glasses and heavy-duty gloves.",
-      inStock: true,
-    },
-    {
-      id: 27,
-      name: "Detergent Tank 5 Gallon",
-      price: 89.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "TankPro",
-      power: "3000 PSI",
-      type: "Tank",
-      description:
-        "Large capacity detergent tank for extended cleaning sessions.",
-      inStock: true,
-    },
-    {
-      id: 28,
-      name: "Wheel Kit for Pressure Washer",
-      price: 119.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "WheelPro",
-      power: "N/A",
-      type: "Wheels",
-      description: "Heavy-duty wheel kit for easy mobility of pressure washer.",
-      inStock: true,
-    },
-    {
-      id: 29,
-      name: "Trigger Gun with Safety Lock",
-      price: 59.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "TriggerPro",
-      power: "5000 PSI",
-      type: "Trigger Gun",
-      description: "Professional trigger gun with safety lock mechanism.",
-      inStock: false,
-    },
-    {
-      id: 30,
-      name: "Nozzle Set (5-Piece)",
-      price: 44.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "NozzlePro",
-      power: "4000 PSI",
-      type: "Nozzles",
-      description:
-        "Complete nozzle set with different spray patterns and angles.",
-      inStock: true,
-    },
-    {
-      id: 31,
-      name: "Pressure Washer Cover",
-      price: 34.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "CoverPro",
-      power: "N/A",
-      type: "Cover",
-      description: "Weather-resistant cover to protect your pressure washer.",
-      inStock: true,
-    },
-    {
-      id: 32,
-      name: "Stainless Steel Wand",
-      price: 89.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "StainlessPro",
-      power: "5000 PSI",
-      type: "Wand",
-      description: "Corrosion-resistant stainless steel wand for longevity.",
-      inStock: true,
-    },
-    {
-      id: 33,
-      name: "Digital Pressure Controller",
-      price: 299.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "DigitalPro",
-      power: "6000 PSI",
-      type: "Controller",
-      description:
-        "Digital pressure controller for precise pressure management.",
-      inStock: false,
-    },
-    {
-      id: 34,
-      name: "Heavy-Duty Hose Reel",
-      price: 179.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "ReelPro",
-      power: "5000 PSI",
-      type: "Hose Reel",
-      description: "Professional hose reel for organized hose storage.",
-      inStock: true,
-    },
-    {
-      id: 35,
-      name: "Multi-Surface Cleaning Kit",
-      price: 149.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "MultiClean",
-      power: "3000 PSI",
-      type: "Cleaning Kit",
-      description: "Complete kit for cleaning various surfaces effectively.",
-      inStock: true,
-    },
-    {
-      id: 36,
-      name: "Pressure Washer Stand",
-      price: 79.99,
-      image:
-        "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop",
-      category: "accessories",
-      brand: "StandPro",
-      power: "N/A",
-      type: "Stand",
-      description: "Stable stand to mount your pressure washer securely.",
+        "Cleaning tool for pressure washer nozzles, compatible with most DeWalt models.",
       inStock: true,
     },
   ];
@@ -597,7 +195,7 @@ function App() {
                 to="/"
                 className="text-2xl lg:text-3xl font-bold text-gray-900 cursor-pointer"
               >
-                <span className="text-red-600">Power</span>Wash Pro
+                <span className="text-red-600">The</span> Soft Wash Store
               </Link>
             </div>
 
@@ -979,7 +577,7 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
             <div className="sm:col-span-2 lg:col-span-2">
               <div className="text-2xl font-bold mb-4">
-                <span className="text-white">Power</span>Wash Pro
+                <span className="text-white">The</span> Soft Wash Store
               </div>
               <p className="text-red-100 mb-6 max-w-2xl">
                 Leading supplier of professional power washing equipment and
@@ -1104,7 +702,7 @@ function App() {
           </div>
 
           <div className="border-t border-red-500 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-red-100">
-            <p>&copy; 2024 PowerWash Pro. All rights reserved.</p>
+            <p>&copy; 2024 The Soft Wash Store. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy
