@@ -34,8 +34,7 @@ const HomePage = ({
         <div
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=600&fit=crop')",
+            backgroundImage: "url('hero.png')",
           }}
         ></div>
         <div className="relative w-full mx-auto px-2 sm:px-4">
